@@ -1,0 +1,20 @@
+{
+  "name": "eslint-react-js-1f8",
+  "version": "1.0.0",
+  "description": "1F8 ReactJS Linter",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext js,jsx,ts,tsx ."
+  },
+  "keywords": ["1F8","eslint"],
+  "author": "1F8 <kwa@1f8.dev>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-react-app": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-react-app": "^5.2.1"
+  }
+}
