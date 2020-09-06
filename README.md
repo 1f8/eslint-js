@@ -3,7 +3,8 @@
 Helps you with styling your code.
 Don't believe there's any correct way, but this way fits our style.
 
-[NPM](https://www.npmjs.com/package/eslint-config-1f8react)
+[NPM](https://www.npmjs.com/package/@1f8/eslint-config-react)
+[Github](https://github.com/1f8/eslint-react-js)
 
 ### Instructions
 
