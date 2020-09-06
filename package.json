@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-1f8react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "1F8 ReactJS Linter",
   "main": "index.js",
   "scripts": {

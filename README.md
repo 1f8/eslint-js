@@ -8,7 +8,7 @@ Don't believe there's any correct way, but this way fits our style.
 ### Instructions
 
 ```
-yarn add -D 1f8-eslint-react
+yarn add -D eslint-config-1f8react
 .touch .eslintrc
 ```
 
