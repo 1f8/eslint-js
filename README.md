@@ -10,6 +10,9 @@ Don't believe there's any correct way, but this way fits our style.
 ```
 yarn add -D eslint-config-1f8react
 .touch .eslintrc
+
+# if not using Gatsby, you'll need to add peerdeps (probably)
+npx install-peerdeps --dev eslint-config-1f8react
 ```
 
 ```
