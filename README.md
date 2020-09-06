@@ -8,7 +8,7 @@ Don't believe there's any correct way, but this way fits our style.
 ### Instructions
 
 ```
-yarn add -D eslint-config-1f8react
+yarn add -D @1f8/eslint-config-react
 .touch .eslintrc
 
 # if not using Gatsby, you'll need to add peerdeps (probably)
@@ -22,7 +22,7 @@ module.exports = {
     __PATH_PREFIX__: true,
   },
   extends: [
-    '1f8react'
+    '@1f8/eslint-config-react'
   ]
 }
 ```

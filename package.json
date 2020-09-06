@@ -1,9 +1,10 @@
 {
-  "name": "eslint-config-1f8react",
-  "version": "1.0.3",
+  "name": "@1f8/eslint-config-react",
+  "version": "1.0.6",
   "description": "1F8 ReactJS Linter",
   "main": "index.js",
   "scripts": {
+    "publish": "npm publish --access public",
     "lint": "eslint --ext js,jsx,ts,tsx ."
   },
   "keywords": ["1F8","eslint"],
