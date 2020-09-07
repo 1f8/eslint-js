@@ -1,11 +1,15 @@
 {
   "name": "@1f8/eslint-config-react",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "1F8 ReactJS Linter",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:1f8/eslint-react-js.git"
+  },
   "scripts": {
     "publish": "npm publish --access public",
-    "lint": "eslint --ext js,jsx,ts,tsx ."
+    "lint": "eslint --ext js,jsx ."
   },
   "keywords": ["1F8","eslint"],
   "author": "1F8 <kwa@1f8.dev>",

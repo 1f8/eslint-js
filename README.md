@@ -10,20 +10,14 @@ Don't believe there's any correct way, but this way fits our style.
 
 ```
 yarn add -D @1f8/eslint-config-react
-.touch .eslintrc
+touch .eslintrc
+cp node_modules/@1f8/eslint-config-react/.eslintignore .eslintignore
+cp node_modules/@1f8/eslint-config-react/gatsby.eslintrc.js .eslintrc.js
 
 # if not using Gatsby, you'll need to add peerdeps (probably)
 npx install-peerdeps --dev eslint-config-1f8react
 ```
 
-```
-# .eslintrc (Gatsby)
-module.exports = {
-  globals: {
-    __PATH_PREFIX__: true,
-  },
-  extends: [
-    '@1f8/eslint-config-react'
-  ]
-}
-```
+### Debug
+
+* If you have any typescript files that isn't being ignored, an error will be thrown if you dont have a typescript linter
