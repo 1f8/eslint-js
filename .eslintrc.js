@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'react-app',
     'eslint:recommended',
+    'plugin:react-hooks/recommended',
   ],
   rules: {
     // JS
