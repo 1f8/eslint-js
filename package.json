@@ -1,6 +1,6 @@
 {
   "name": "@1f8/eslint-config-react",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "1F8 ReactJS Linter",
   "main": "index.js",
   "repository": {
@@ -18,13 +18,23 @@
   "author": "1F8 <kwa@1f8.dev>",
   "license": "MIT",
   "peerDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
     "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.1.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
     "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.1.2"
   }
 }

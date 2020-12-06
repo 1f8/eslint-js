@@ -8,14 +8,22 @@ Don't believe there's any correct way, but this way fits our style.
 
 ### Instructions
 
-```
+```bash
+# Gatsby
 yarn add -D @1f8/eslint-config-react
-touch .eslintrc
 cp node_modules/@1f8/eslint-config-react/.eslintignore .eslintignore
-cp node_modules/@1f8/eslint-config-react/gatsby.eslintrc.js .eslintrc.js
 
-# if not using Gatsby, you'll need to add peerdeps (probably)
-npx install-peerdeps --dev eslint-config-1f8react
+# React
+cp node_modules/@1f8/eslint-config-react/.eslintignore .eslintignore
+npx install-peerdeps -D @1f8/eslint-config-react
+touch .eslintrc
+```
+
+```json
+/** .eslintrc */
+{
+  "extends": ["@1f8/eslint-config-react"]
+}
 ```
 
 ### Debug

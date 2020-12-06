@@ -65,6 +65,21 @@ module.exports = {
       'arrays': 'only-multiline',
       'objects': 'only-multiline',
     }],
+    'array-bracket-spacing': ['error', 'always', { 'singleValue': false }],
+    'comma-spacing': ['error', { 'before': false, 'after': true }],
+    'space-in-parens': ['error', 'never'],
+    'object-curly-spacing': ['error', 'always'],
+    'key-spacing': ['error', {
+      'singleLine': {
+        'beforeColon': false,
+        'afterColon': true,
+      },
+      'multiLine': {
+        'beforeColon': false,
+        'afterColon': true,
+        'align': 'colon',
+      },
+    }],
     quotes: [2, 'single', 'avoid-escape'],
     semi: [2, 'never'],
   },
